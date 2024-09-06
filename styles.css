@@ -232,6 +232,12 @@ header .menu{
 .imagemh{
     margin-left: 20%;
     margin-top: 6%;
+    transform: translateY(30px);
+    filter: blur(20px);
+    opacity: 0;
+    animation: showContent .5s .7s ease-in-out 1 forwards;
+    animation-duration: 1.3s;
+    transition: 0.75s;
 }
 @media screen and (max-width: 678px) {
     .thumbnail{
