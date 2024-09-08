@@ -252,8 +252,8 @@ header .menu{
     }
     .hero-btn{
         position: absolute;
-        top: 130%;
-        left: -15%;
+        margin-top: 20px;
+        margin-left: 0;
         height: 20%;
         width: 70px;
         border-radius: 10px;
